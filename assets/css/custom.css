@@ -1,0 +1,13 @@
+video {
+    /* Simulationg background-size: cover */
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    filter:opacity(100%);
+    z-index:-1;
+  }
