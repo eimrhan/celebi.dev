@@ -693,11 +693,13 @@ mark, .mark {
     margin: 40px auto;
 }
 
-@media (min-width: 769px) {
-    .hero__wrapper .countdown__module {
-        max-width: 800px;
-        margin: 80px auto;
-    }
+@media (min-width: 1200px) {
+		.hero__wrapper {
+				max-height: 100dvh;
+		}
+		.hero__wrapper .countdown__module {
+				margin-bottom: 80px;
+		}
 }
 
 @media (min-width: 1401px) {
