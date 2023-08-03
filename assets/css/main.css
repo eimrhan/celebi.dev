@@ -584,6 +584,10 @@ mark, .mark {
 
 .service__text {
     font-size: 14px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
 }
 
 .service-wrapper {
